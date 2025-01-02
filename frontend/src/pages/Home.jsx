@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header.jsx'
 import HomeCaption from '../components/HomeCaption.jsx'
 import GiftHomeSection from '../components/GiftHomeSection.jsx'
+import AboutSection from '../components/AboutSection.jsx'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <Header />
         <HomeCaption />
         <GiftHomeSection/>
+        <AboutSection/>
         
     </div>
   )
