@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
-    <header className="w-full h-20 bg-[#faf9f3] flex justify-between items-center p-4">
+    <header className="w-full h-20 bg-[#faf9f3] flex justify-between items-center p-4 shadow-lg">
         <div className="">
             <Link to="/" className="">
             <img src={logo_image} alt="iyf logo"  />

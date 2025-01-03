@@ -7,7 +7,7 @@ import shareImage from "../assets/images/right-arrow.png";
 
 export default function AudioComponent() {
   return (
-    <div className="border-0 bg-[#D9D9D9] w-full h-1/2 p-4 shadow-lg flex">
+    <div className="border-0 bg-[#D9D9D9] w-full h-auto p-4 shadow-lg flex">
       <img src={audiImage} alt="" className=" rounded-md" />
       <div className="grid grid-cols-12">
         <div className=" col-span-10  flex flex-col justify-center items-start gap-2 ml-2">

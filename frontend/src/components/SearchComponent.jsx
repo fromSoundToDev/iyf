@@ -5,7 +5,7 @@ export default function SearchComponent() {
   return (
    
     <div>
-    <div className="flex  justify-end items-center gap-10 p-4 my-5 ">
+    <div className="flex  justify-end items-center gap-10 p-4 my-5 w-5/6  mx-auto">
       <h1 className="text-base sm:text-xl font-semibold text-[#]">Conference / Seminaire</h1>
       <div className="">
         <label className="input input-bordered flex items-center gap-2">
@@ -25,7 +25,7 @@ export default function SearchComponent() {
         </label>
       </div>
     </div>
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center "> 
         <img src={conferenceImage} alt="" className="p-4 " />
     </div>
     </div>

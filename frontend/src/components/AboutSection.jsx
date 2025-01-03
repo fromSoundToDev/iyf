@@ -3,7 +3,7 @@ import about_img from "../assets/images/Rectangle 25.png";
 
 export default function AboutSection() {
   return (
-    <div className=" flex flex-col justify-center items-center w-5/6 bg-[#acdaa188] py-5 mb-10 space-y-5 mt-10 mx-auto">
+    <div className=" flex flex-col justify-center items-center w-5/6 bg-[#acdaa188] py-5 mb-10 space-y-5 shadow-lg mt-10 mx-auto">
       <h1 className="w-3/4 font-semibold text-lg sm:text-xl text-center ">
         Qui somme nous ?
       </h1>
