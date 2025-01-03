@@ -1,5 +1,5 @@
 import React from 'react'
-import slide_image from '../assets/images/mobile.png'
+
 
 export default function HomeCaption() {
   return (

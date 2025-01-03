@@ -3,7 +3,7 @@ import volonteer_img from "../assets/images/volunteer.png";
 
 export default function VolonteerSection() {
   return (
-    <div className=" w-full   ">
+    <div className=" w-full h-96 relative mb-10"  >   
       <img src={volonteer_img} alt="" className="relative" />
       <div className=" -translate-y-24 mx-auto text-white  w-1/2 h-44  bg-[#2c6ca8] p-4 shadow-xl grid place-items-center gap-2">
         <h1 className="font-semibold text-xl  ">Pourquoi devenir volontaire</h1>
