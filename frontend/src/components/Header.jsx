@@ -13,7 +13,7 @@ export default function Header() {
         <div className="p-2 text-sm sm:text-base ">
             <Link to="/about" className="mx-4 hover:text-[#044ca6]"> A propos</Link>
             <Link to="/events" className="mx-4 hover:text-[#044ca6]">Evenements</Link>
-            <Link to="/conference" className="mx-4 hover:text-[#044ca6]">Conferencre/Seminaire</Link>
+            <Link to="/conferences" className="mx-4 hover:text-[#044ca6]">Conferencre/Seminaire</Link>
             <Link to="/contact" className="mx-4 hover:text-[#044ca6]">Contact</Link>
             <Link to="/gift" className="mx-4 hover:text-[#044ca6]  bg-[#044CA6] text-white fle px-2 py-1 rounded-2xl ">Don</Link>
             <Link to="/connexion" className="mx-4 hover:text-[#044ca6] bg-[#044CA6] text-white fle px-2 py-1 rounded-2xl  ">Connnexion</Link>
