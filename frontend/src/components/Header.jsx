@@ -10,7 +10,7 @@ export default function Header() {
             <img src={logo_image} alt="iyf logo"  />
             </Link>
         </div>
-        <div className="p-2 text-sm sm:text-base ">
+        <div className="p-2 text-sm sm:text-base hidden sm:flex">
             <Link to="/about" className="mx-4 hover:text-[#044ca6]"> A propos</Link>
             <Link to="/events" className="mx-4 hover:text-[#044ca6]">Evenements</Link>
             <Link to="/conferences" className="mx-4 hover:text-[#044ca6]">Conferencre/Seminaire</Link>

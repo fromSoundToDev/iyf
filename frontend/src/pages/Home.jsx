@@ -5,6 +5,7 @@ import GiftHomeSection from '../components/GiftHomeSection.jsx'
 import AboutSection from '../components/AboutSection.jsx'
 import VolonteerSection from '../components/VolonteerSection.jsx'
 import Footer from '../components/Footer.jsx'
+import AudioSection from '../components/AudioSection.jsx'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <GiftHomeSection/>
         <AboutSection/>
         <VolonteerSection/>
+        <AudioSection/>
         <Footer/>
         
     </div>
