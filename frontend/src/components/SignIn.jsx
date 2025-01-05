@@ -24,7 +24,7 @@ export default function SignIn() {
             className="focus:outline-none focus:ring-2 focus:ring-[#74C084] w-3/4 p-3 rounded-md border-2 border-gray-200 "
           />
         
-        <button type="button " className="bg-[#84C7AE] mt-2 text-white  hover:opacity-90 disabled:opacity-70 rounded-md font-medium p-2 border-0">Creer Un Compte</button>
+        <button type="button " className="bg-[#84C7AE] mt-2 text-white  hover:opacity-90 disabled:opacity-70 rounded-md font-medium p-2 border-0">Connexion</button>
         <p className="mb-5">Vous navez pas de compte ? <Link className="text-[#044ca6] font-semibold underline" > Creer un copmte</Link></p>
       </form>
     </div>
