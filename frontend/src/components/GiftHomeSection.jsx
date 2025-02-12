@@ -1,6 +1,6 @@
 import React from "react";
-import TextComponent from "./textComponent";
-import BtnComponent from "./btnComponent";
+import TextComponent from "./TextComponent";
+import BtnComponent from "./BtnComponent";
 
 export default function GiftHomeSection() {
   return (
